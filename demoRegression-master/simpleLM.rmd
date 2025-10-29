@@ -39,3 +39,6 @@ summary.lm(simp1)
 
 The predicted overall weight of a bear based on chest, has an adjusted R-squared value of 0.9262, and residual standard value of 33.08.
 
+
+
+
