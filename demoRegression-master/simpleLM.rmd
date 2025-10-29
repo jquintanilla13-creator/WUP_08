@@ -30,3 +30,12 @@ summary.lm(simp)
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+```{r}
+simp1 <- lm(WEIGHT~CHEST,data=bears)
+plot(WEIGHT~CHEST,data=bears)
+abline(simp1)
+summary.lm(simp1)
+```
+
+The predicted overall weight of a bear based on chest, has an adjusted R-squared value of 0.9262, and residual standard value of 33.08.
+
