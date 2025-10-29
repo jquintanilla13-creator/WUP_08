@@ -57,3 +57,11 @@ summary.lm(simp3)
 
 The predicted overall weight of a bear based on head width, has an adjusted R-squared value of 0.6064, and residual standard value of 76.41.
 
+```{r}
+simp4 <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(simp4)
+summary.lm(simp4)
+```
+
+The predicted overall weight of a bear based on head length, has an adjusted R-squared value of 0.69, and residual standard value of 67.81.
