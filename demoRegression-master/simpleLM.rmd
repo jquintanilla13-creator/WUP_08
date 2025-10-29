@@ -65,3 +65,14 @@ summary.lm(simp4)
 ```
 
 The predicted overall weight of a bear based on head length, has an adjusted R-squared value of 0.69, and residual standard value of 67.81.
+
+```{r}
+simp5 <- lm(WEIGHT~AGE,data=bears)
+plot(WEIGHT~AGE,data=bears)
+abline(simp5)
+summary.lm(simp5)
+```
+
+The predicted overall weight of a bear based on age, has an adjusted R-squared value of 0.5526, and residual standard error value of 81.47.
+
+
